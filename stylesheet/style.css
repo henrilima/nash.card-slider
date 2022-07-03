@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #12111b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+main .box {
+    width: 4.6rem;
+    height: 300px;
+    border-radius: 2.3rem;
+    margin: 0 0.5rem;
+    transition: all 0.8s;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main .box:nth-child(1) {
+    background: center center url(./../assets/jujutsu.png);
+    background-size: auto 100%;
+    background-position: 5%;
+}
+main .box:nth-child(2) {
+    background: center center url(./../assets/hunter.png);
+    background-size: auto 100%;
+    background-position: 72%;
+}
+main .box:nth-child(3) {
+    background: center center url(./../assets/lwa.png);
+    background-size: auto 100%;
+    background-position: 72%;
+}
+main .box:nth-child(4) {
+    background: center center url(./../assets/rengoku.png);
+    background-size: auto 100%;
+    background-position: 58%;
+}
+main .box:nth-child(5) {
+    background: center center url(./../assets/naruto.png);
+    background-size: auto 100%;
+    background-position: 55%;
+}
+
+main .box > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(18, 17, 27, 0.6), rgba(0, 0, 0, 0));
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.reveal-d {
+    display: block !important;
+    animation: fadeup 1s ease-in-out forwards;
+}
+
+main .box div .master {
+    display: none;
+    margin: 0 0 2rem 2rem;
+}
+
+.reveal-w {
+    width: calc(420px - 1rem) !important;
+}
+
+.button {
+    width: 110px;
+    border: 1px solid #12111b;
+    color: #ffffff;
+    font-weight: 400;
+    background-color: #704A94;
+    margin-top: 0.6rem;
+    border-radius: 2rem;
+    padding: 0.2rem 1rem;
+}
+
+#unique {
+    display: none;
+}
+
+@keyframes fadeup {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    main {
+        display: none;
+    }
+
+    #unique {
+        display: block;
+    }
+}
