@@ -37,27 +37,27 @@ main .box {
 }
 
 main .box:nth-child(1) {
-    background: center center url(./../assets/jujutsu.png);
+    background: center center url(./../assets/jujutsu.jpg);
     background-size: auto 100%;
     background-position: 5%;
 }
 main .box:nth-child(2) {
-    background: center center url(./../assets/hunter.png);
+    background: center center url(./../assets/hunter.jpg);
     background-size: auto 100%;
     background-position: 72%;
 }
 main .box:nth-child(3) {
-    background: center center url(./../assets/lwa.png);
+    background: center center url(./../assets/lwa.jpg);
     background-size: auto 100%;
     background-position: 72%;
 }
 main .box:nth-child(4) {
-    background: center center url(./../assets/rengoku.png);
+    background: center center url(./../assets/rengoku.jpg);
     background-size: auto 100%;
     background-position: 58%;
 }
 main .box:nth-child(5) {
-    background: center center url(./../assets/naruto.png);
+    background: center center url(./../assets/naruto.jpg);
     background-size: auto 100%;
     background-position: 55%;
 }
