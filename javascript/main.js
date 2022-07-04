@@ -19,7 +19,7 @@ function revealBoxContent(ID) {
 
         setTimeout(() => {
             eTime = ++eTime;
-        }, 17000);
+        }, 7000);
     } else {
         document
             .querySelectorAll(`main section.box`)
@@ -36,7 +36,7 @@ function revealBoxContent(ID) {
         lastTime = ++time;
         setTimeout(() => {
             eTime = ++eTime;
-        }, 17000);
+        }, 7000);
     }
 }
 
