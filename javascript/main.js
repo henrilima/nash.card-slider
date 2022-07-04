@@ -36,19 +36,19 @@ function revealBoxContent(ID) {
         lastTime = ++time;
         setTimeout(() => {
             eTime = ++eTime;
-        }, 7000);
+        }, 8000);
     }
 }
 
 setInterval(() => {
     if (eTime === lastTime && [0, 1, 2, 3, 4].includes(lastID)) {
+        eTime = false;
+        lastTime = false;
         document
             .getElementsByClassName("box")
             [lastID].classList.remove("reveal-w");
         document
             .getElementsByClassName("master")
             [lastID].classList.remove("reveal-d");
-        eTime = false;
-        lastTime = false;
     }
 }, 1000);
