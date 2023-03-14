@@ -1,5 +1,6 @@
-# Card Slider
+# Global Chat
 
-Link: https://henrilima.github.io/card-slider/
+### Projeto modificado e movido para o site da Chromac:
+https://chromacweb.cf/
 
-> ![image](./design/layout.jpg)
+And nothing else. :D
